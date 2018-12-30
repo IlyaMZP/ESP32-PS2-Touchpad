@@ -1,0 +1,14 @@
+menu "PS/2 configuration"
+
+
+config HW_PS2CLK_GPIO
+	int "PS/2 Clock pin"
+	range 0 33
+	default 32
+
+config HW_PS2DATA_GPIO
+	int "PS/2 Data pin"
+	range 0 33
+	default 33
+
+endmenu
